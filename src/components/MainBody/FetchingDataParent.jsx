@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FetchingDataParent = () => {
+export const FetchingDataParent = () => {
     return (
         <div>
             
@@ -8,4 +8,3 @@ const FetchingDataParent = () => {
     );
 };
 
-export default FetchingDataParent;
