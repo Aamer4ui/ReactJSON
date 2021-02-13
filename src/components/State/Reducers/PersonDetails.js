@@ -6,5 +6,5 @@ const PersonDetails = () => {
         {id:"9gf6", name:"Majeed" ,title:"Full Stack Devloper"},
         {id:"64tqs", name:"Ashmer" ,title:"Full Stack Devloper"},
         {id:"89pmn", name:"Salman" ,title:"Full Stack Devloper"},
-    ]
+    ],
 }
