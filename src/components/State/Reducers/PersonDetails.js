@@ -1,4 +1,4 @@
-const PersonDetails = () => {
+const PersonDetails = {
     person:[
         {id:"12fgs", name:"Aamer" , age:"24" , title:"Full Stack Devloper"},
         {id:"14kgf", name:"Zubair" , age:"21" , title:"Python Devloper"},
