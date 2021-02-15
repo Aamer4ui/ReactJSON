@@ -5,8 +5,8 @@ import FetchingDataChild from "./FetchingDataChild";
 export const FetchingDataParent = () => {
   return (
     <div>
-      {PersonDetails.pesron.map((employee) => {
-        return <FetchingDataChild employeeInfo={employee} />;
+      {PersonDetails.person.map((item) => {
+        return <FetchingDataChild Info={item} />;
       })}
     </div>
   );

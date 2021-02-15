@@ -1,15 +1,15 @@
 import React from "react";
-import { Card , Button} from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 
-const FetchingDataChild = ({ employeeInfo }) => {
+const FetchingDataChild = ({ Info }) => {
   return (
     <div>
       <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={employeeInfo.image} />
+        <Card.Img variant="top" src={Info.image} />
         <Card.Body>
-          <Card.Title>{employeeInfo.title}</Card.Title>
+          <Card.Title>{Info.name}</Card.Title>
           <Card.Text>
-            {employeeInfo.name} Age:{employeeInfo.age}
+            {Info.title} <br /> Age:{Info.age}
             <br />
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
