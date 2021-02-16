@@ -6,7 +6,7 @@
 .img-card{
     width: 250px;
     height: 200px;
-    /* border-radius: 50% 50%; */
+    border-radius: 50px;
     /* box-shadow: 10px 0 10px black; */
 }
 .button-view{
