@@ -5,8 +5,8 @@ import "../MainBody/Fetching.css";
 const FetchingDataChild = ({ Info }) => {
   return (
     <div className="card-body">
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={Info.image} />
+      <Card className style={{ width: "18rem" }}>
+        <Card.Img className="img-card" variant="top" src={Info.image} />
         <Card.Body>
           <Card.Title>{Info.name}</Card.Title>
           <Card.Text>
@@ -15,7 +15,9 @@ const FetchingDataChild = ({ Info }) => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <Button variant="primary">View Detail's</Button>
+          <Button className="button-view" variant="nonne">
+            View Detail's
+          </Button>
         </Card.Body>
       </Card>
     </div>

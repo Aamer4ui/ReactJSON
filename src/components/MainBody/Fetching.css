@@ -1,3 +1,14 @@
 .card-body{
     display: inline-block;
+    border: none;
+    outline: none;
+}
+.img-card{
+    width: 250px;
+    height: 200px;
+    /* border-radius: 50% 50%; */
+    /* box-shadow: 10px 0 10px black; */
+}
+.button-view{
+    border: 1px solid black;
 }

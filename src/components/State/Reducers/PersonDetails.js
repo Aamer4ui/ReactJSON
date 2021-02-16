@@ -31,7 +31,7 @@ export const PersonDetails = {
       age: "24",
       title: "Hardware Engineer",
       image:
-        "https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "https://cdn.pixabay.com/photo/2014/07/09/10/04/man-388104_960_720.jpg",
     },
     {
       id: "64tqs",
