@@ -4,10 +4,11 @@
     outline: none; */
 }
 .img-card{
-    width: 100px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
     /* margin: 20px; */
-    border-radius: 50% !important;
+    /* border-radius: 50% !important; */
     /* box-shadow: 10px 0 10px black; */
 }
 .button-view{
