@@ -12,7 +12,7 @@ export default class EventGall extends Component {
     const settings = {
       dots: true,
       fade: true,
-      //   dotsClass: "slick-dots slick-thumb",
+      dotsClass: "slick-dots slick-thumb",
       infinite: true,
       speed: 2000,
       autoplay: true,
