@@ -16,13 +16,14 @@ export default class EventGall extends Component {
       infinite: true,
       speed: 2000,
       autoplay: true,
-      autoplaySpeed: 500,
+      autoplaySpeed: 700,
       slidesToShow: 1,
       slidesToScroll: 1,
       ltr: true,
     };
     return (
       <div>
+        <h2>Event's</h2>
         <Slider {...settings}>
           {PersonDetails.person.map((item) => {
             console.log("hiiiiiiiii", item);
