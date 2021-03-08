@@ -14,3 +14,20 @@
 .button-view{
     border: 1px solid black;
 }
+.slider-content{
+    width: 600px;
+    margin: auto;
+}
+.slick-next, .slick-prev{
+    background-color: black;
+    border-radius: 50px;
+}
+.slick-next:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.slick-prev:hover{
+    background-color: black;
+    color: white;
+}

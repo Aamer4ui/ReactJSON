@@ -15,6 +15,7 @@ export default class EventGall extends Component {
       dotsClass: "slick-dots slick-thumb",
       infinite: true,
       speed: 2000,
+      arrows: true,
       autoplay: true,
       autoplaySpeed: 700,
       slidesToShow: 1,
@@ -24,7 +25,8 @@ export default class EventGall extends Component {
     return (
       <div>
         <h2>Event's</h2>
-        <Slider {...settings}>
+        <Slider className="slider-content" {...settings}>
+          {/* //Spread operator */}
           {PersonDetails.person.map((item) => {
             console.log("hiiiiiiiii", item);
             return (
