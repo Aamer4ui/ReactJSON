@@ -21,7 +21,7 @@ export const PersonDetails = {
       id: "10bgd",
       name: "Sameer",
       age: "25",
-      title: "Java Stack Devloper",
+      title: "Java Devloper",
       image:
         "https://www.diethelmtravel.com/wp-content/uploads/2016/04/bill-gates-wealthiest-person.jpg",
     },
@@ -45,7 +45,7 @@ export const PersonDetails = {
       id: "89pmn",
       name: "Salman",
       age: "27",
-      title: "Dababase",
+      title: "Database",
       image:
         "https://img.etimg.com/thumb/width-640,height-480,imgsize-436664,resizemode-1,msid-72360263/magazines/panache/joker-fame-joaquin-phoenix-a-vegan-since-3-named-petas-person-of-the-year/joaquin-phoenix-recently-appeared-in-petas-we-are-all-animals-billboards-in-times-square-and-on-sunset-billboard-as-he-promoted-legislation-to-ban-travelling-wild-animal-circuses-.jpg",
     },

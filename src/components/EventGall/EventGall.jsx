@@ -17,28 +17,30 @@ export default class EventGall extends Component {
       speed: 2000,
       arrows: true,
       autoplay: true,
-      autoplaySpeed: 700,
+      autoplaySpeed: 900,
       slidesToShow: 1,
       slidesToScroll: 1,
       ltr: true,
     };
     return (
-      <div>
+      <>
         <h2>Event's</h2>
         <Slider className="slider-content" {...settings}>
           {/* //Spread operator */}
           {PersonDetails.person.map((item) => {
-            console.log("hiiiiiiiii", item);
+            // console.log("hiiiiiiiii", item);
             return (
               <div>
                 <div>
                   <img className="img-card" src={item.image} />
                 </div>
+                <h2 className="heading">{item.name}</h2>
+                <h3 className="heading">{item.title}</h3>
               </div>
             );
           })}
         </Slider>
-      </div>
+      </>
     );
   }
 }

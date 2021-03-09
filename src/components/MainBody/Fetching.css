@@ -4,18 +4,18 @@
     outline: none; */
 }
 .img-card{
-    width: 500px;
+    width: 800px;
     height: 500px;
     margin: auto;
     /* margin: 20px; */
     /* border-radius: 10% !important; */
-    box-shadow: 10px 0 10px black;
+    /* box-shadow: 10px 0 10px black; */
 }
 .button-view{
     border: 1px solid black;
 }
 .slider-content{
-    width: 600px;
+    width: 800px;
     margin: auto;
 }
 .slick-next, .slick-prev{
@@ -31,3 +31,6 @@
     background-color: black;
     color: white;
 }
+/* .heading{
+    background-color: lightgreen;
+} */
